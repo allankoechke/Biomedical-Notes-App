@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>assets/fonts/Roboto-Thin.ttf</file>
+        <file>assets/fonts/Roboto-Regular.ttf</file>
+        <file>assets/fonts/Roboto-Bold.ttf</file>
+        <file>assets/fonts/Gobold Regular.otf</file>
+        <file>assets/fonts/Gobold Light.otf</file>
+        <file>assets/fonts/fontawesome.otf</file>
+        <file>qml/views/MainView.qml</file>
+        <file>qml/views/SplashView.qml</file>
+        <file>qml/views/LoginView.qml</file>
+        <file>qml/views/HomeView.qml</file>
+        <file>qml/views/NewAccountView.qml</file>
+        <file>qml/components/AppIcon.qml</file>
+        <file>qml/components/AppText.qml</file>
+        <file>qml/components/LoginInputField.qml</file>
+    </qresource>
+</RCC>
