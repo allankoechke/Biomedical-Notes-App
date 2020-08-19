@@ -93,10 +93,7 @@ Item {
             Layout.alignment: Qt.AlignHCenter
             Layout.topMargin: 50
             width: 150; height: 60; radius: height/2
-            gradient: Gradient {
-                GradientStop { position: 0.0; color: "#0DAAF8" }
-                GradientStop { position: 1.0; color: "#F7058D" }
-            }
+            color: "#0DAAF8"
 
             AppText
             {

@@ -9,21 +9,6 @@ Item {
     Layout.fillWidth: true
     Layout.fillHeight: true
 
-    Rectangle
-    {
-        height: 40
-        width: parent.width
-        anchors.top: parent.top
-        anchors.left: parent.left
-        //rotation: -90
-
-        gradient: Gradient {
-            GradientStop { position: 0.0; color: "#0DAAF8" }
-            GradientStop { position: 1.0; color: "#F7058D" }
-        }
-
-    }
-
     ColumnLayout
     {
         spacing: 5
@@ -72,34 +57,29 @@ Item {
                 anchors.margins: 20
                 spacing: 10
 
-                Rectangle
+                AppText
                 {
-                    Layout.fillWidth: true
-                    Layout.preferredHeight: 50
-                    width: parent.width*0.8
+                    Layout.preferredHeight: 40
+                    Layout.alignment: Qt.AlignHCenter
+                    verticalAlignment: AppText.AlignVCenter
+                    text: qsTr("Sign into your account")
+                    size: 25
+                    fontIndex: 1
+                    font.bold: true
                     color: "white"
-
-                    AppText
-                    {
-                        text: qsTr("LOGIN")
-                        size: 20
-                        fontIndex: 1
-                        font.bold: true
-                        anchors.centerIn: parent
-                        color: "#010141"
-                    }
                 }
+
 
                 LoginInputField
                 {
-                    placeholderText: qsTr("Username")
-                    textIcon: "\uf118"
+                    placeholderText: qsTr("Email (example@mail.com)")
+                    textIcon: "\uf0e0"
                 }
 
                 LoginInputField
                 {
                     placeholderText: qsTr("Password")
-                    textIcon: "\uf30d"
+                    textIcon: "\uf084"
                     isPasswordInput: true
                 }
 
@@ -107,10 +87,7 @@ Item {
                 {
                     Layout.alignment: Qt.AlignHCenter
                     width: 150; height: 50; radius: 5
-                    gradient: Gradient {
-                        GradientStop { position: 0.0; color: "#0DAAF8" }
-                        GradientStop { position: 1.0; color: "#F7058D" }
-                    }
+                    color: "#0DAAF8"
 
                     AppText
                     {

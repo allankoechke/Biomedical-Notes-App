@@ -21,17 +21,14 @@ Item {
         {
             Layout.fillHeight: true
             Layout.preferredWidth: height+10
-            gradient: Gradient {
-                GradientStop { position: 0.0; color: "#0DAAF8" }
-                GradientStop { position: 1.0; color: "#F7058D" }
-            }
+            color: "#0DAAF8"
 
             AppIcon
             {
                 size: 20
                 color: "white"
                 anchors.centerIn: parent
-                icon: "\uf80c"//textIcon
+                icon: textIcon
             }
         }
 

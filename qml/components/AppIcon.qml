@@ -9,4 +9,5 @@ Label {
 
     font.family: mainQmlApp.fontAwesomeFontLoader.name
     font.pixelSize: size
+    text: icon
 }

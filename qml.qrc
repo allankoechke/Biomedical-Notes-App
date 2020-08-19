@@ -15,5 +15,14 @@
         <file>qml/components/AppIcon.qml</file>
         <file>qml/components/AppText.qml</file>
         <file>qml/components/LoginInputField.qml</file>
+        <file>qml/components/TopNavigationBar.qml</file>
+        <file>qml/components/MenuDrawer.qml</file>
+        <file>qml/components/MenuDrawerItem.qml</file>
+        <file>qml/subviews/DashboardView.qml</file>
+        <file>qml/subviews/NoticeBoardView.qml</file>
+        <file>qml/subviews/SocialFeedView.qml</file>
+        <file>qml/subviews/LibraryView.qml</file>
+        <file>qml/subviews/FavouritesView.qml</file>
+        <file>qml/subviews/SettingsView.qml</file>
     </qresource>
 </RCC>
