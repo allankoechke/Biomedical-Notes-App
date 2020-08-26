@@ -5,9 +5,10 @@ import QtQuick.Controls 2.4 as Controls2
 import "../components"
 import "../subviews"
 
-Item {
+Rectangle {
     Layout.fillHeight: true
     Layout.fillWidth: true
+    color: "#f5f5f5"
 
     ColumnLayout
     {
@@ -18,46 +19,41 @@ Item {
         {
         }
 
-        Item
+        StackLayout
         {
             Layout.fillHeight: true
             Layout.fillWidth: true
-            Layout.margins: 20
+            Layout.margins: 40
+            currentIndex: currentMenuIndex
 
             DashboardView
             {
                 id: dashboardView
-                visible: currentMenuIndex === 0
             }
 
             NoticeBoardView
             {
                 id: noticeboardView
-                visible: currentMenuIndex === 2
             }
 
             SocialFeedView
             {
                 id: socialfeedView
-                visible: currentMenuIndex === 3
             }
 
             LibraryView
             {
                 id: libraryView
-                visible: currentMenuIndex === 4
             }
 
             FavouritesView
             {
                 id: favouritesView
-                visible: currentMenuIndex === 5
             }
 
             SettingsView
             {
                 id: settingsView
-                visible: currentMenuIndex === 6
             }
         }
     }

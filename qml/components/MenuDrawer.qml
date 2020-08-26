@@ -15,7 +15,7 @@ Drawer {
     {
         id: closeMenuDrawer
         running: false
-        interval: 1000
+        interval: 300
         repeat: false
 
         onTriggered: menuDrawer.close()

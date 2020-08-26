@@ -24,5 +24,10 @@
         <file>qml/subviews/LibraryView.qml</file>
         <file>qml/subviews/FavouritesView.qml</file>
         <file>qml/subviews/SettingsView.qml</file>
+        <file>qml/delegates/ChatDelegate.qml</file>
+        <file>qml/models/ChatModel.qml</file>
+        <file>qml/components/AppImage.qml</file>
+        <file>qml/components/DashboardPane.qml</file>
+        <file>qml/delegates/DashboardPaneDelegate.qml</file>
     </qresource>
 </RCC>

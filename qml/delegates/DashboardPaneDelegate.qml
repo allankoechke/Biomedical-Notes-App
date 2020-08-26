@@ -3,11 +3,10 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.4 as Controls2
 
 import "../components"
-import "../delegates"
-import "../models"
 
-Item {
-    Layout.fillWidth: true
-    Layout.fillHeight: true
-
+Rectangle
+{
+    Layout.preferredHeight: 250
+    Layout.preferredWidth: 250
+    color: "red" //"#f5f5f5"
 }
